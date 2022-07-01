@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="grey_background_color">#efefef</color>
+    <color name="grey_text_color">#9b9b9b</color>
+    <color name="grey_icon_color">#c1c1c1</color>
+
+    <color name="black_text_color">#2a2a2a</color>
+    <color name="lyt_black_text_color">#444444</color>
+
+    <color name="white_text_color">#e3f3fe</color>
+    <color name="off_white_background">#f4f4f4</color>
+    <color name="white_border_color">#C2C2C2</color>
+
+    <color name="red_color">#fe2323</color>
+
+    <color name="dark_sky_blue_color">#1194f4</color>
+    <color name="lyt_sky_blue_color">#01befe</color>
+
+    <color name="teal_color">#0ac8d2</color>
+    <color name="lyt_teal_color">#0fcec1</color>
+    <color name="parrot_color">#14d4ad</color>
+
+    <color name="orange_color">#f8a198</color>
+    <color name="lyt_orange_color">#faae94</color>
+    <color name="dark_orange_color">#febf8e</color>
+
+    <color name="lyt_yellow_color">#FFCD35</color>
+    <color name="medium_yellow_color">#FFAD00</color>
+    <color name="dark_yellow_color">#D99301</color>
+
+    <color name="sliderUnSelectIndicatorColor">#79FFFFFF</color>
+    <color name="sliderSelectIndicatorColor">#FFFFFF</color>
+</resources>

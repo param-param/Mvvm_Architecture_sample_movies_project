@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/background_off_white_rounded_cornered"
+        android:backgroundTint="@color/off_white_background">
+
+        <ImageView
+            android:id="@+id/iv_Close_BTN"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:padding="3dp"
+            android:src="@drawable/ic_close"
+            app:tint="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginHorizontal="12dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingVertical="15dp">
+
+                <ImageView
+                    android:id="@+id/iv_Error_Icon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/exclamation" />
+
+
+                <TextView
+                    android:id="@+id/tv_Error_Msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/gotham_rounded_medium"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="@string/something_Went_wrong"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_Continue"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_yellow_gradient_circular_corner_btn"
+                android:fontFamily="@font/gotham_rounded_bold"
+                android:paddingHorizontal="60dp"
+                android:text="@string/ok"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
